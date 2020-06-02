@@ -1,0 +1,594 @@
+body {
+  font-size: 16px;
+  color: gray;
+  background-color: #669900;
+  font-family: "Architects Daughter", cursive;
+}
+
+@media (min-width: 1200px) {
+  #header-nav {
+    background-color: #66ff33;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-header button.navbar-toggle,
+  .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #logo-img {
+    background: url("../images/logo.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+  }
+
+  .navbar-brand h1 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+
+  .navbar-brand a:hover,
+  .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+  }
+
+  .navbar-brand p span {
+    vertical-align: middle;
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+
+  #nav-list a {
+    color: gray;
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background: #e7e7e7;
+  }
+
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  #phone {
+    margin-top: 5px;
+  }
+
+  #phone a {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  #phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .jumbotron {
+    background: url(../images/cat1200.png) no-repeat;
+    height: 450px;
+    box-shadow: 0 0 50px #336600;
+    border: 2px solid #336600;
+  }
+
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .ourproducts {
+    font-size: 1.8em;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #fff;
+    margin: 25px 0 25px 0;
+    padding: 20px;
+  }
+
+  .parent {
+    background: #00ffff;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+    border: none;
+    overflow: hidden;
+  }
+
+  .child {
+    color: black;
+    background: #00ffff;
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    border: none;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header-nav {
+    background-color: #66ff33;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-header button.navbar-toggle,
+  .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #logo-img {
+    background: url("../images/logo2.png") no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+  }
+
+  .navbar-brand h1 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+
+  .navbar-brand a:hover,
+  .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+  }
+
+  .navbar-brand p span {
+    vertical-align: middle;
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+
+  #nav-list a {
+    color: gray;
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background: #e7e7e7;
+  }
+
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  #phone {
+    margin-top: 5px;
+  }
+
+  #phone a {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  #phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .jumbotron {
+    background: url(../images/cat992.png) no-repeat;
+    height: 372px;
+    box-shadow: 0 0 50px #336600;
+    border: 2px solid #336600;
+  }
+
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .ourproducts {
+    font-size: 1.8em;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #fff;
+    margin: 25px 0 25px 0;
+    padding: 20px;
+  }
+
+  .parent {
+    background: #00ffff;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+    border: none;
+    overflow: hidden;
+  }
+
+  .child {
+    color: black;
+    background: #00ffff;
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    border: none;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+    background-color: #66ff33;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-header button.navbar-toggle,
+  .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #logo-img {
+    background: url("../images/logo2.png") no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+  }
+
+  .navbar-brand h1 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+
+  .navbar-brand a:hover,
+  .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+  }
+
+  .navbar-brand p span {
+    vertical-align: middle;
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+
+  #nav-list a {
+    color: gray;
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background: #e7e7e7;
+  }
+
+  #nav-list a span {
+    font-size: 1.2em;
+  }
+
+  #phone {
+    margin-top: 5px;
+  }
+
+  #phone a {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  #phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .jumbotron {
+    background: url(../images/cat768.png) no-repeat;
+    height: 288px;
+    box-shadow: 0 0 50px #336600;
+    border: 2px solid #336600;
+  }
+
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .ourproducts {
+    font-size: 1.8em;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #fff;
+    margin: 25px 0 25px 0;
+    padding: 20px;
+  }
+
+  .parent {
+    background: #00ffff;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+    border: none;
+    overflow: hidden;
+  }
+
+  .child {
+    color: black;
+    background: #00ffff;
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .divbox {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #header-nav {
+    background-color: #66ff33;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-header button.navbar-toggle,
+  .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #logo-img {
+    background: url("../images/logo2.png") no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+  }
+
+  .navbar-brand h1 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+
+  .navbar-brand a:hover,
+  .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+  }
+
+  .navbar-brand p span {
+    vertical-align: middle;
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+
+  #nav-list a {
+    color: gray;
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background: #e7e7e7;
+  }
+
+  #nav-list a span {
+    font-size: 1.2em;
+  }
+
+  #phone {
+    margin-top: 5px;
+  }
+
+  #phone a {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  #phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .jumbotron {
+    height: auto;
+    box-shadow: 0 0 50px #336600;
+    border: 2px solid #336600;
+  }
+
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .ourproducts {
+    font-size: 1.8em;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #fff;
+    margin: 25px 0 25px 0;
+    padding: 20px;
+  }
+
+  .parent {
+    background: #00ffff;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+    border: none;
+    overflow: hidden;
+  }
+
+  .child {
+    color: black;
+    background: #00ffff;
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .divbox {
+    padding: 0px;
+  }
+  #call-btn {
+    font-size: 1.8em;
+    display: block;
+    padding: 10px;
+    border: 2px solid #336600;
+    background-color: #66ff33;
+    color: #951c49;
+    text-align: center;
+  }
+}
